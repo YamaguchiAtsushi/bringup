@@ -3,8 +3,8 @@
     <node name="waypoint_publisher" pkg="waypoint_publisher" type="waypoint_publisher"/>
     <node name="sub_waypoint_publisher" pkg="sub_waypoint_publisher" type="sub_waypoint_publisher"/>
     <node name="state_manager" pkg="state_manager" type="state_manager"/>
-    <node name="collision_monitor" pkg="collision_monitor" type="collision_monitor"/>
-    <!-- <node name="go_waypoint" pkg="go_waypoint" type="go_waypoint" output="screen"/> -->
+    <node name="collision_monitor" pkg="collision_monitor" type="collision_monitor" output="screen"/>
+    <node name="go_waypoint" pkg="go_waypoint" type="go_waypoint"/>
     <node name="goal_judge" pkg="goal_judge" type="goal_judge"/>
 
     <node pkg="urg_node" type="urg_node" name="urg_node">
